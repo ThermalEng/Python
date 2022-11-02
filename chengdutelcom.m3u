@@ -45,7 +45,6 @@ http://192.168.50.1:11111/udp/239.93.42.50:5140
 http://192.168.50.1:11111/udp/239.93.42.51:5140
 #EXTINF:-1 tvg-id="20" tvg-name="CGTN" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/cgtn.png" group-title="央视",CGTN俄罗斯语
 http://192.168.50.1:11111/udp/239.93.42.52:5140
-
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/aishang4k.png" group-title="四川",爱上4K(4K机顶盒用户可观看)
 http://192.168.50.1:11111/udp/239.93.0.97:5140
 #EXTINF:-1 tvg-id="141" tvg-name="凤凰中文" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzhongwen.png" group-title="港澳台",凤凰中文台1
@@ -62,11 +61,10 @@ http://192.168.50.1:11111/rtp/239.93.0.157:2194
 http://192.168.50.1:11111/rtp/239.93.1.7:2194
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://brand.66uu.com/userfiles/20160628/20160628105348_75254.png" group-title="港澳台",星空卫视
 http://192.168.50.1:11111/rtp/239.93.0.156:2193
-#EXTINF:-1 tvg-id="7243" tvg-name="wenjiang" tvg-logo="" group-title="四川",爱温江
+#EXTINF:-1 tvg-id="7243" tvg-name="wenjiang" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/jinwenjiang.png" group-title="四川",爱温江
 http://192.168.50.1:11111/udp/239.93.1.104:1234
-#EXTINF:-1 tvg-id="7243" tvg-name="leshan" tvg-logo="" group-title="四川",爱乐山
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="四川",爱乐山
 http://192.168.50.1:11111/udp/239.93.1.55:8302
-
 #EXTINF:-1 tvg-id="56" tvg-name="四川卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/sichuan.png" group-title="卫视",#EXTINF-1四川卫视高清
 http://192.168.50.1:11111/udp/239.93.0.169:5140
 #EXTINF:-1 tvg-id="27" tvg-name="湖南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hunan.png" group-title="卫视",#EXTINF-1湖南卫视高清
@@ -175,7 +173,7 @@ http://192.168.50.1:11111/udp/239.93.0.22:1252
 http://192.168.50.1:11111/udp/239.93.1.137:5140
 #EXTINF:-1 tvg-id="2025" tvg-name="金鹰纪实" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jinyingjishi.png" group-title="地方",#EXTINF-1金鹰纪实高清
 http://192.168.50.1:11111/udp/239.93.0.130:5140
-#EXTINF:-1 tvg-id="1994" tvg-name="中国交通频道" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/zgjt.png" group-title="上海",#EXTINF-1中国交通·四川
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/zgjt.png" group-title="上海",#EXTINF-1中国交通·四川
 http://192.168.50.1:11111/udp/239.93.0.142:5140
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",#EXTINF-1CETV-1高清
 http://192.168.50.1:11111/udp/239.93.1.111:5140
@@ -349,7 +347,7 @@ http://192.168.50.1:11111/udp/239.93.42.8:5140
 http://192.168.50.1:11111/udp/239.93.42.2:5140
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",#EXTINF-1绚影4K
 http://192.168.50.1:11111/udp/239.93.42.33:5140
-#EXTINF:-1 tvg-id="7243" tvg-name="wenjiang" tvg-logo="" group-title="四川",#EXTINF-1爱温江
+#EXTINF:-1 tvg-id="7243" tvg-name="wenjiang" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/jinwenjiang.png" group-title="四川",#EXTINF-1爱温江
 http://192.168.50.1:11111/udp/239.93.1.104:1234
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",#EXTINF-1中国体育1
 http://192.168.50.1:11111/udp/239.93.42.25:5140
@@ -563,7 +561,7 @@ http://192.168.50.1:11111/udp/239.93.1.96:5140
 http://192.168.50.1:11111/udp/239.93.0.220:5140
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",#EXTINF-1四川广场舞大赛-单音轨
 http://192.168.50.1:11111/udp/239.93.1.97:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",#EXTINF-1热门央视
+#EXTINF:-1 tvg-id="5" tvg-name="CCTV5" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5.png" group-title="未分类",#EXTINF-1热门央视
 http://192.168.50.1:11111/udp/239.93.1.33:5140
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",#EXTINF-1热门卫视
 http://192.168.50.1:11111/udp/239.93.1.34:5140
@@ -669,3 +667,191 @@ http://192.168.50.1:11111/udp/239.93.1.136:5140
 http://192.168.50.1:11111/udp/239.93.1.138:5140
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",#EXTINF-1星空精选画中画
 http://192.168.50.1:11111/udp/239.93.0.230:5140
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/X7OZ3w5.png" group-title="Movies",Celestial Classic 天映经典 (C
+http://210.210.155.37/qwr9ew/s/s31/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/KYP1xXZ.png" group-title="Movies",Celestial Movies (Indones
+http://210.210.155.37/dr9445/h/h14/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/AQqXUIe.png" group-title="Undefined",CETV1 (576p)
+http://183.207.248.71/gitv/live1/G_CETV-1/G_CETV-1
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/mhgsvh0.png" group-title="Undefined",CETV2 (576p)
+http://183.207.248.71/gitv/live1/G_CETV-2/G_CETV-2
+#EXTINF:-1 tvg-id="20" tvg-name="CGTN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/512px-CGTN.svg.png" group-title="News",CGTN (576p)
+https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/yLNUK1u.png" group-title="Undefined",Channel 8 [Geo-blocked]
+https://d34e90s3s13i7n.cloudfront.net/hls/clr4ctv_ch8/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://atv-cdn.hkatv.vip/images/16166569352816980048.png" group-title="Undefined",Creation TV (720p) [Not 2
+http://al-pull2.hkatv.vip/live/CTV.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/xdsqiiu.png" group-title="General",CreaTV Community Channel 
+https://reflect-creatv.cablecast.tv/live-13/live/live.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/2BjE9U1.png" group-title="General",CTi Asia (中天亚洲台) (720p)
+http://50.7.220.74:8278/ctiasia_twn/playlist.m3u8?ct=19226&tid=MC3C8838319088383190&tsum=6eaf7a477dd08b06a5dc54b4c05e52e1
+#EXTINF:-1 tvg-id="6057" tvg-name="中天娱乐台" tvg-logo="https://i.imgur.com/bIQ3STm.png" group-title="Entertainment",CTi Entertainment (中天娱乐台)
+http://50.7.220.74:8278/ctient/playlist.m3u8?ct=17874&tid=m6780c60bd34a13540795&tsum=06089e289a460b0685447b7656d550e3
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/3bzjW0l.png" group-title="News",CTi News (中天新闻台)
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/ctitv/live
+#EXTINF:-1 tvg-id="6054" tvg-name="中天综合台" tvg-logo="https://i.imgur.com/AbUMkqo.png" group-title="General",CTi Variety (中天综合台) (720p
+http://23.237.10.66:16372
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/ISl9WsI.png" group-title="Undefined",CTS HD (华视) (720p)
+http://50.7.220.74:8278/ctshd_twn/playlist.m3u8?ct=19226&tid=MAFA1309481213094812&tsum=429f7c40691cdcc6c1fb108dbd11e002
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://piceltaott-elta.cdn.hinet.net/upload/channel/910.png" group-title="News",CTS News (华视新闻资讯) [Geo-bl
+http://seb.sason.top/sc/hsxw_fhd.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.lyngsat.com/logo/tv/cc/ctv_tw.png" group-title="Undefined",CTV (CTV中视) (720p)
+http://50.7.220.74:8278/zhongshihd_twn/playlist.m3u8?ct=19226&tid=MB8B7313326473133264&tsum=ae7506028e559f3a6e2a3519b2f6a91e
+#EXTINF:-1 tvg-id="7172" tvg-name="中视经典" tvg-logo="https://www.lyngsat.com/logo/tv/cc/ctv_tw_classic.png" group-title="Classic",CTV Classic (中视经典台) (720p
+http://50.7.220.74:8278/zhongshi_twn/playlist.m3u8?ct=18335&tid=mffe9aaf8765f&tsum=bcdd7a2ce4a5498b1449cb26a01150c0
+#EXTINF:-1 tvg-id="6159" tvg-name="tvN" tvg-logo="https://i.imgur.com/OMuG8u9.png" group-title="News",CTV News Channel (中视新闻台)
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/twctvnews/live
+#EXTINF:-1 tvg-id="6027" tvg-name="大爱一台" tvg-logo="https://i.imgur.com/KdJi9af.png" group-title="General",DaAi1 (大爱1) (720p)
+http://50.7.220.74:8278/daai_twn/playlist.m3u8?ct=19225&tid=MF5F4357730143577301&tsum=10c092424b1c12259444b68ad663c9eb
+#EXTINF:-1 tvg-id="6142" tvg-name="大爱二台" tvg-logo="https://i.imgur.com/KdJi9af.png" group-title="General",DaAi2 (大爱2) (720p)
+https://pulltv2.wanfudaluye.com/live/tv2.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.lyngsat.com/logo/tv/dd/dragon-tv-cn.png" group-title="Undefined",Dragon TV International (
+http://210.210.155.37/x6bnqe/s/s29/index.m3u8
+#EXTINF:-1 tvg-id="6075" tvg-name="东森财经新闻台" tvg-logo="https://img-fnc.ebc.net.tw/EbcFnc/logoes/pc_logo.png" group-title="News",EBC Financial News (东森财经新
+http://seb.sason.top/sc/dscjxw_fhd.m3u8
+#EXTINF:-1 tvg-id="6084" tvg-name="东森洋片台" tvg-logo="https://www.lyngsat.com/logo/tv/ee/ebc-foreign-movie-tw.png" group-title="Movies",EBC Foreign Movie (东森洋片台)
+http://50.7.220.74:8278/ettvwestern/playlist.m3u8?ct=17874&tid=mfdfc048e6c2416337202&tsum=cad39b26202d525ea820bee1d69e545f
+#EXTINF:-1 tvg-id="6080" tvg-name="东森电影台" tvg-logo="https://www.lyngsat.com/logo/tv/ee/ebc-movie-tw.png" group-title="Movies",EBC Movie (东森电影台) (720p)
+http://50.7.220.74:8278/ettvmovie/playlist.m3u8?ct=19225&tid=MDED1943740419437404&tsum=120834a4218c4b5c3bb19efb8116f859
+#EXTINF:-1 tvg-id="6069" tvg-name="东森新闻台" tvg-logo="https://i.imgur.com/obtCusJ.jpg" group-title="News",EBC News (东森新闻台) (1080p) 
+http://seb.sason.top/sc/dsxw_fhd.m3u8
+#EXTINF:-1 tvg-id="6050" tvg-name="东森综合台" tvg-logo="https://www.lyngsat.com/logo/tv/ee/ebc-variety-tw.png" group-title="Undefined",EBC Variety (东森综合台) (720p
+http://50.7.220.74:8278/ettvzhonghe/playlist.m3u8?ct=17874&tid=m65c4e525f24617101171&tsum=663db593cfeefc92ce4b5d7461988f3f
+#EXTINF:-1 tvg-id="6068" tvg-name="年代新闻台" tvg-logo="https://i.imgur.com/DyQaf51.png" group-title="News",Era News (年代新闻台) (720p)
+http://50.7.220.74:8278/niandainews_twn/playlist.m3u8?ct=19226&tid=MA6A4647720946477209&tsum=48a66838dbcf633b2fb41307b29ef50a
+#EXTINF:-1 tvg-id="6159" tvg-name="tvN" tvg-logo="https://www.lyngsat.com/logo/tv/ee/ettv-news-tw.png" group-title="News",ETTV News (720p)
+http://50.7.220.74:8278/ettvnews/playlist.m3u8?ct=19225&tid=MAEA2793211727932117&tsum=151345e2ab6bc0c89ac85598f1988cd3
+#EXTINF:-1 tvg-id="701" tvg-name="FashionTV" tvg-logo="https://www.ftv.com.tw/images/Ch_01.png" group-title="General",FTV (民视) (720p)
+http://50.7.220.74:8278/ftvhd_taiwan/playlist.m3u8?ct=18335&tid=m15b424641a89&tsum=ba82cdbfb8253c45a13df5354e6d0dbc
+#EXTINF:-1 tvg-id="701" tvg-name="FashionTV" tvg-logo="https://i.imgur.com/6jbjVNy.png" group-title="News",FTV News (民视新闻台)
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/FTVCP/live
+#EXTINF:-1 tvg-id="701" tvg-name="FashionTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ad/FTV_One.png" group-title="General",FTV One (民视第一台) (720p) [N
+http://seb.sason.top/ptv/ftv.php?id=dy
+#EXTINF:-1 tvg-id="701" tvg-name="FashionTV" tvg-logo="https://www.ftv.com.tw/images/Ch_03.png" group-title="News",FTV Taiwan (民视台湾台) (720p)
+http://seb.sason.top/ptv/ftv.php?id=tw
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/DjI6SS1.png" group-title="Undefined",GEM (576p)
+http://210.210.155.37/uq2663/h/h19/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/ea/Good_tv_logo.png" group-title="Undefined",GOOD TV CH1 综合台 (720p) [N
+https://live.streamingfast.net/osmflivech1.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.lyngsat.com/logo/tv/gg/good_tv2.png" group-title="Undefined",GOOD TV CH2 真理台 (720p)
+https://live.streamingfast.net/osmflivech2.m3u8
+#EXTINF:-1 tvg-id="6138" tvg-name="幸福空间居家台" tvg-logo="https://i.imgur.com/g9FKTkv.png" group-title="Lifestyle",GSTV Gorgeous Space TV (1
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/channel/UCoo-jAsJgM8z09ddlhcBlSA/live
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.lyngsat.com/logo/tv/gg/gala_tv_tw_variety.png" group-title="Undefined",GTV1 (八大第1台) (720p)
+http://50.7.220.74:8278/badafirst/playlist.m3u8?ct=17874&tid=mb8efded78b4e12042621&tsum=028ad819cd9a0f949a043d652fa3e164
+#EXTINF:-1 tvg-id="6059" tvg-name="八大戏剧台" tvg-logo="https://www.lyngsat.com/logo/tv/gg/gala_tv_tw_drama.png" group-title="Series",GTV Drama (八大戏剧台) (720p)
+http://50.7.220.74:8278/badadrama/playlist.m3u8?ct=19225&tid=ME4E4734124647341246&tsum=c4e596572a79ad99675ee2137d1cc43d
+#EXTINF:-1 tvg-id="6046" tvg-name="八大综合台" tvg-logo="https://www.lyngsat.com/logo/tv/gg/gala_tv_tw_entertainment.png" group-title="Entertainment",GTV Entertainment (八大综合台)
+http://50.7.220.74:8278/badazhonghe/playlist.m3u8?ct=19225&tid=MC7C4692263546922635&tsum=ffdc7a6397b511103e0df0b92e678790
+#EXTINF:-1 tvg-id="6152" tvg-name="HBOHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/HBO_logo.svg/512px-HBO_logo.svg.png" group-title="Undefined",HBO HD Taiwan (720p)
+http://50.7.220.74:8278/hbohd_twn/playlist.m3u8?ct=19225&tid=ME9E5260921952609219&tsum=a904cd480db106670befb11d14149fce
+#EXTINF:-1 tvg-id="7117" tvg-name="香港国际财经台" tvg-logo="https://i.imgur.com/9LiN8Xi.png" group-title="Undefined",HKIBC
+http://uc6.i-cable.com/live_freedirect/opentvhd002_h.live/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.lyngsat.com/logo/tv/hh/hollywood_movie_channel.png" group-title="Movies",Hollywood (720p)
+http://50.7.220.74:8278/hollywoodmovies_twn/playlist.m3u8?ct=19225&tid=MECE5611281156112811&tsum=ad8884ee16b04f885f24bae98fc5fb9f
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/RuAYuSM.png" group-title="Undefined",Indigenous TV (720p)
+http://streamipcf.akamaized.net/live/_definst_/smil:liveabr.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="6063" tvg-name="JET综合台" tvg-logo="https://i.imgur.com/j8aghTe.png" group-title="Undefined",JET TV (JET综合台) (720p)
+http://50.7.220.74:8278/jettv_japan/playlist.m3u8?ct=19225&tid=MA7A4202687942026879&tsum=e84bc4851b9d6f6a18282c1efcb6ed1d
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/KIX_logo.svg/512px-KIX_logo.svg.png" group-title="Entertainment",Kix (Indonesian Subtitle)
+http://210.210.155.37/dr9445/h/h07/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/WsOfy19.png" group-title="Religious",Lighting Lives Blessing N
+https://brightstar-chinese.secure.footprint.net/egress/bhandler/brightstar/brightstarChinese/manifest.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Love_Nature_TV.png/512px-Love_Nature_TV.png" group-title="Outdoor",Love Nature (1080p)
+http://bamus-eng-roku.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="6082" tvg-name="LSTime电影台" tvg-logo="https://www.lyngsat.com/logo/tv/ll/ls_time_movie.png" group-title="Movies",LS Time Movie (720p)
+http://50.7.220.74:8278/cb7a1fec69/playlist.m3u8?ct=18335&tid=md05ab4002297&tsum=ebe4254ee0e073c2d3c9789e679c00a5
+#EXTINF:-1 tvg-id="7193" tvg-name="LUXETV" tvg-logo="https://i.imgur.com/WcP9e3z.png" group-title="Undefined",Luxe TV (1080p)
+https://alchimie-luxe-fr-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.lyngsat.com/logo/tv/mm/matv-film-hk.png" group-title="Movies",Mei Ah Movie Channel (720
+http://50.7.220.74:8278/meiyamovie_twn/playlist.m3u8?ct=19226&tid=MFEF1001328410013284&tsum=9839709ca0f37641c5d1ba962c3bc739
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/B5MAphH.png" group-title="Kids",Miao Mi (1080p) [Not 24/7
+https://kr-streams.onrender.com/scraper?channel=521
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/CRExAD5.png" group-title="Documentary",National Geographic HD (7
+http://50.7.220.74:8278/natgeohd_twn/playlist.m3u8?ct=17874&tid=ma1f0b9808d5014467661&tsum=73dfb91284f5b1358251546e6f03da3d
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/0/0a/NHK_Huayu_Shijie_Logo.jpg/512px-NHK_Huayu_Shijie_Logo.jpg" group-title="News",NHK Chinese Vision (720p)
+https://nhkw-zh-hlscomp.akamaized.net/8thz5iufork8wjip/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.lyngsat.com/logo/tv/nn/ntd-tv-us.png" group-title="Undefined",NTD TV East (New Tang Dyn
+https://ntd02.akamaized.net/NTDA/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/UF03VC3.png" group-title="Undefined",Ou-Mun Macau Satellite Ch
+https://live3.tdm.com.mo/ch3/ch3.live/playlist.m3u8
+#EXTINF:-1 tvg-id="141" tvg-name="凤凰中文" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/3/34/Phoenix_Chinese.svg/512px-Phoenix_Chinese.svg.png" group-title="General",Phoenix Chinese Channel (
+http://210.210.155.37/uq2663/h/h157/index2.m3u8
+#EXTINF:-1 tvg-id="142" tvg-name="凤凰资讯" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/thumb/1/16/Phoenix_InfoNews.svg/512px-Phoenix_InfoNews.svg.png" group-title="News",Phoenix InfoNews Channel 
+https://playtv-live.ifeng.com/live/06OLEEWQKN4_tv1.m3u8
+#EXTINF:-1 tvg-id="7143" tvg-name="BabyFirst" tvg-logo="https://images.pluto.tv/channels/5f4fb4cf605ddf000748e16f/colorLogoPNG.png" group-title="Kids",Pluto TV BabyFirst (720p)
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ebac49ce4dc8b00078b23bc/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/heENeBz.png" group-title="Undefined",PTS (公视) (720p)
+http://50.7.220.74:8278/ctv_taiwan/playlist.m3u8?ct=17990&tid=13765524&tsum=03eb77c1c186944b97737f14e95076c0
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/RTHK_TV_31.svg/512px-RTHK_TV_31.svg.png" group-title="Undefined",RTHK (港台电视31) (360p) [Geo
+https://rthklive1-lh.akamaihd.net/i/rthk31_1@167495/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/RTHK_TV_32.svg/512px-RTHK_TV_32.svg.png" group-title="Undefined",RTHK (港台电视32) (360p) [Not
+https://rthklive2-lh.akamaihd.net/i/rthk32_1@168450/master.m3u8
+#EXTINF:-1 tvg-id="6072" tvg-name="三立新闻台" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/e/e1/SETN_logo.png" group-title="News",SET News (三立新闻) (720p)
+http://50.7.220.74:8278/sanlixiju_twn/playlist.m3u8?ct=19226&tid=MBDB8405357084053570&tsum=78944c0951d21a699e46fff4318a3799
+#EXTINF:-1 tvg-id="6047" tvg-name="三立台湾台" tvg-logo="https://www.lyngsat.com/logo/tv/ss/set_tv_taiwan.png" group-title="Undefined",SET Taiwan (三立台湾台) (720p)
+http://50.7.220.74:8278/sanlitaiwan/playlist.m3u8?ct=17874&tid=m92ccadc4dc3718157816&tsum=3570a8198ca0fb7ebb803807e38b33fb
+#EXTINF:-1 tvg-id="6049" tvg-name="卫视中文台" tvg-logo="https://i.imgur.com/k5J8ArE.png" group-title="Undefined",Star Chinese Channel HD (
+http://50.7.220.74:8278/weishichinese_twn/playlist.m3u8?ct=19226&tid=MA8A7894022878940228&tsum=c0323ce59263e0096d4181626874e17c
+#EXTINF:-1 tvg-id="6034" tvg-name="原住民频道" tvg-logo="https://www.lyngsat.com/logo/tv/tt/taiwan_indigenous_tv.png" group-title="General",Taiwan Indigenous TV (原住民
+http://streamipcf.akamaized.net/live/_definst_/live_720/key_b1500.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/7ml2bfx.png" group-title="Entertainment",TDM Entertainment Ch. 95 
+https://live3.tdm.com.mo/ch6/hd_ch6.live/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/t0IyYLE.png" group-title="Undefined",TDM Info. Macau (720p) [N
+https://live3.tdm.com.mo/ch5/info_ch5.live/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/wbxKdQ4.png" group-title="Undefined",TDM Ou Mun Macau Ch. 91 (
+https://live3.tdm.com.mo/ch1/ch1.live/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/op5PFB0.jpg" group-title="Sports",TDM Sports Ch. 93 (720p)
+https://live3.tdm.com.mo/ch4/sport_ch4.live/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/kvKMnJR.png" group-title="Undefined",Tech Storm (720p) [Geo-bl
+https://cdn-telkomsel-01.akamaized.net/Content/HLS/Live/channel(abe4ead2-1a88-4330-9f41-382fcf94bba2)/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/isr5jto.png" group-title="Movies",Thrill (576p)
+http://210.210.155.37/qwr9ew/s/s34/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/qGZtVd0.png" group-title="Undefined",TTV (台视) (720p)
+http://50.7.220.74:8278/ttv_taiwan/playlist.m3u8?ct=17874&tid=mdea1ba75c9e516139101&tsum=95f1742d36f959fe6e241587a4f8e970
+#EXTINF:-1 tvg-id="6143" tvg-name="台视新闻台" tvg-logo="https://i.imgur.com/2XqmrM0.png" group-title="News",TTV News (台视新闻台)
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/ttvnewsview/live
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/zKWfwAw.png" group-title="General",Türkmenistan (112p) [Not 
+https://alpha.tv.online.tm/hls/ch007.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://turkmentv.gov.tm/assets/img/live-imgs/sport.png" group-title="Sports",Türkmenistan Sport (406p)
+https://alpha.tv.online.tm/hls/ch004.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/vLpm8tN.png" group-title="General",TV BRICS Chinese (1080p) 
+https://brics.bonus-tv.ru/cdn/brics/chinese/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/RlFYvKf.png" group-title="Undefined",TVB Finance and Sport Cha
+http://9.zhxinda.xyz/newss.php?id=2
+#EXTINF:-1 tvg-id="416" tvg-name="J2" tvg-logo="https://i.imgur.com/lvxtaoM.png" group-title="Undefined",TVB J2
+https://j3.lhlh.app/mv.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e9/TVBS_Asia_logo_2017.png" group-title="Undefined",TVBS Asia (1080p)
+http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
+#EXTINF:-1 tvg-id="6060" tvg-name="TVBS欢乐台" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Tvbs-logo-42.png/512px-Tvbs-logo-42.png" group-title="Entertainment",TVBS Entertainment Channe
+http://50.7.220.74:8278/tvbshuanle_twn/playlist.m3u8?ct=19193&tid=MC8C2318787923187879&tsum=394d2b9af3df7846e2cdc60d69dd4219
+#EXTINF:-1 tvg-id="6074" tvg-name="TVBS" tvg-logo="https://i.imgur.com/4RvCHWP.png" group-title="Undefined",TVBS HD (720p)
+http://50.7.220.74:8278/tvbs/playlist.m3u8?ct=19226&tid=MDED5111960351119603&tsum=49931e2d3885c468d56ffae2c2db9e6e
+#EXTINF:-1 tvg-id="6073" tvg-name="TVBS新闻台" tvg-logo="https://i.imgur.com/Hsop2If.png" group-title="News",TVBS News (TVBS新闻台)
+http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/TVBSNEWS01/live
+#EXTINF:-1 tvg-id="6159" tvg-name="tvN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Logo_tvN.svg/512px-Logo_tvN.svg.png" group-title="Undefined",tvN Asia (Indonesian Subt
+http://210.210.155.37/dr9445/h/h20/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/dmQHbXr.png" group-title="Undefined",TVS2 (576p)
+http://223.110.245.153/ott.js.chinamobile.com/PLTV/3/224/3221227005/index.m3u8
+#EXTINF:-1 tvg-id="6076" tvg-name="非凡新闻台" tvg-logo="https://www.lyngsat.com/logo/tv/uu/unique-satellite-tv-tw.png" group-title="Undefined",Unique Satellite TV (非凡新闻
+http://50.7.220.74:8278/feifannews_twn/playlist.m3u8?ct=17874&tid=m050e7aad65f614336734&tsum=4ea1b829d195ac69a6c2ca51b21ae378
+#EXTINF:-1 tvg-id="6081" tvg-name="纬来电影台" tvg-logo="https://www.lyngsat.com/logo/tv/vv/videoland_movie.png" group-title="Movies",Videoland Movie (纬来电影台) (
+http://50.7.220.74:8278/videolandmovie/playlist.m3u8?ct=18335&tid=ma2dac66da407&tsum=9a5a39559f64a71081ef9b3a85f2886c
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.lyngsat.com/logo/tv/vv/videoland_sport.png" group-title="Sports",Videoland Sports (720p)
+http://50.7.220.74:8278/videolandsport/playlist.m3u8?ct=19226&tid=MA6A1192684511926845&tsum=0b7ca9a61e7371df68108a27dc358c68
+#EXTINF:-1 tvg-id="408" tvg-name="ViuTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/ViuTV_logo.svg/512px-ViuTV_logo.svg.png" group-title="Undefined", like Gecko) Chrome/81.0.
+https://cdn.hklive.tv/xxxx/99/index.m3u8
+#EXTINF:-1 tvg-id="408" tvg-name="ViuTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ViuTVsix-logo.svg/512px-ViuTVsix-logo.svg.png" group-title="Undefined", like Gecko) Chrome/81.0.
+https://cdn.hklive.tv/xxxx/96/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://www.lyngsat.com/logo/tv/ss/star_xing_kong_international.png" group-title="Undefined",Xing Kong International (
+http://210.210.155.37/x6bnqe/s/s94/index2.m3u8
+#EXTINF:-1 tvg-id="7229" tvg-name="唯心电视" tvg-logo="https://i.imgur.com/s8tiTeb.png" group-title="Religious",唯心电视 (480p)
+http://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/chunklist_w1177047531.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/9JfZJRv.png" group-title="Education;Science",滁州市广播电视台 科教频道 (400p)
+http://live.cztv.cc:85/live/sjpd.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/xB9mWqU.png" group-title="Undefined",美国中文电视 (406p) [Not 24/7]
+https://jpts.sinovision.net/livestream.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.imgur.com/xliVoIt.jpg" group-title="Shop",耀才财经台 (576p)
+http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8
+#EXTINF:-1 tvg-id="412" tvg-name="HKS" tvg-logo="https://i.imgur.com/wnQPn2d.jpg" group-title="Undefined",香港卫视 (576p) [Not 24/7]
+http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
