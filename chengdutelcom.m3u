@@ -488,39 +488,31 @@ http://192.168.50.1:11111/udp/239.93.42.96:5140
 http://192.168.50.1:11111/udp/239.93.42.97:5140
 #EXTINF:-1  tvg-logo="https://live.fanmingming.com/tv/劲爆体育-HD.png",劲爆体育-HD
 http://192.168.50.1:11111/udp/239.93.42.98:5140
-#EXTINF:-1 group-title="Kids" tvg-logo="https://i.imgur.com/WxLHBwu.png",BabyFirst (1080p)
+#EXTINF:-1  tvg-logo="https://i.imgur.com/WxLHBwu.png",BabyFirst (1080p)
 https://lte.wiseplayout.com/WiseM3U8_12/master.m3u8
-#EXTINF:-1 group-title="Religious" tvg-logo="https://i.imgur.com/hkwcBM9.png",Beautiful Life TV
-https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8
-#EXTINF:-1 group-title="Religious" tvg-logo="https://i.imgur.com/f8bTPRn.png",Creation TV (720p)
-https://cdn.deepcore.online/hlsme/ctv_hk.m3u8
-#EXTINF:-1 group-title="News" tvg-logo="https://i.imgur.com/fEUmRST.png",CTi News (中天新聞台)
+#EXTINF:-1  tvg-logo="https://i.imgur.com/fEUmRST.png",CTi News (中天新聞台)
 https://ythls.armelin.one/channel/UC5l1Yto5oOIgRXlI4p4VKbw.m3u8
-#EXTINF:-1 group-title="General" tvg-logo="https://i.imgur.com/KdJi9af.png",DaAi1 (大愛1) (720p)
+#EXTINF:-1  tvg-logo="https://i.imgur.com/KdJi9af.png",DaAi1 (大愛1) (720p)
 https://pulltv1.wanfudaluye.com/live/tv1.m3u8
-#EXTINF:-1 group-title="General" tvg-logo="https://i.imgur.com/KdJi9af.png",DaAi2 (大愛2) (720p)
+#EXTINF:-1  tvg-logo="https://i.imgur.com/KdJi9af.png",DaAi2 (大愛2) (720p)
 https://pulltv2.wanfudaluye.com/live/tv2.m3u8
-#EXTINF:-1 group-title="Religious" tvg-logo="https://i.imgur.com/k28Kc3o.png",GOOD TV CH1 綜合台 (720p) [Not 24/7]
-https://live.streamingfast.net/osmflivech1.m3u8
-#EXTINF:-1 group-title="Religious" tvg-logo="https://i.imgur.com/YxFRoft.png",GOOD TV CH2 真理台 (720p)
-https://live.streamingfast.net/osmflivech2.m3u8
-#EXTINF:-1 group-title="General" tvg-logo="https://i.imgur.com/Ao48HRT.png",NTD TV West (New Tang Dynasty Television)
+#EXTINF:-1  tvg-logo="https://i.imgur.com/Ao48HRT.png",NTD TV West (New Tang Dynasty Television)
 https://ntd02.akamaized.net/NTD-West/index.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-logo="https://i.imgur.com/kf818kM.png",RTHK (港台電視31) (1080p) [Geo-blocked]
+#EXTINF:-1  tvg-logo="https://i.imgur.com/kf818kM.png",RTHK (港台電視31) (1080p) [Geo-blocked]
 https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-logo="https://i.imgur.com/MXLuUoU.png",RTHK (港台電視32) (1080p) [Geo-blocked]
+#EXTINF:-1  tvg-logo="https://i.imgur.com/MXLuUoU.png",RTHK (港台電視32) (1080p) [Geo-blocked]
 https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/master.m3u8
-#EXTINF:-1 group-title="News" tvg-logo="https://i.imgur.com/NaOUWKf.png",SET iNews
+#EXTINF:-1  tvg-logo="https://i.imgur.com/NaOUWKf.png",SET iNews
 https://ythls.armelin.one/channel/UCoNYj9OFHZn3ACmmeRCPwbA.m3u8
-#EXTINF:-1 group-title="General" tvg-logo="https://i.imgur.com/qDI3aMp.png",TDM Ou Mun Macau Ch. 91 (720p)
+#EXTINF:-1  tvg-logo="https://i.imgur.com/qDI3aMp.png",TDM Ou Mun Macau Ch. 91 (720p)
 http://61.244.22.4/ch1/ch1.live/playlist.m3u8
-#EXTINF:-1 group-title="Kids" tvg-logo="https://i.imgur.com/Uhwv1il.png",Toonmax TV (576p)
+#EXTINF:-1  tvg-logo="https://i.imgur.com/Uhwv1il.png",Toonmax TV (576p)
 http://210.210.155.37/qwr9ew/s/s50/index.m3u8
-#EXTINF:-1 group-title="News" tvg-logo="https://i.imgur.com/AfkK0gv.png",TTV News (台视新聞台)
+#EXTINF:-1  tvg-logo="https://i.imgur.com/AfkK0gv.png",TTV News (台视新聞台)
 https://ythls.armelin.one/channel/UC8ROUUjHzEQm-ndb69CX8Ww.m3u8
-#EXTINF:-1 group-title="News" tvg-logo="https://i.imgur.com/171lwfg.png",TVBS News (TVBS新聞台)
+#EXTINF:-1  tvg-logo="https://i.imgur.com/171lwfg.png",TVBS News (TVBS新聞台)
 https://ythls.armelin.one/channel/UC5nwNW4KdC0SzrhF9BXEYOQ.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-logo="https://i.imgur.com/XCTZkoq.png",VOA美国之音
+#EXTINF:-1  tvg-logo="https://i.imgur.com/XCTZkoq.png",VOA美国之音
 https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist.m3u8
-#EXTINF:-1 group-title="Undefined" tvg-logo="https://i.imgur.com/m8UUfDh.png",Xing Kong International (360p)
+#EXTINF:-1  tvg-logo="https://i.imgur.com/m8UUfDh.png",Xing Kong International (360p)
 http://210.210.155.37/x6bnqe/s/s94/index2.m3u8
