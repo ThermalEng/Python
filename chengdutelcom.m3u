@@ -234,7 +234,7 @@ http://192.168.50.1:11111/udp/239.93.0.124:5140
 http://192.168.50.1:11111/udp/239.93.0.143:5140
 http://192.168.50.1:11111/udp/239.93.0.125:5140
 http://192.168.50.1:11111/udp/239.93.0.176:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/陕西农林卫视.png" group-title="地方",陕西农林卫视
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://epg.112114.xyz/logo/陕西农林卫视.png" group-title="地方",陕西农林卫视
 http://192.168.50.1:11111/udp/239.93.0.100:5140
 #EXTINF:-1 tvg-id="58" tvg-name="云南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/yunnan.png" group-title="地方",云南卫视
 http://192.168.50.1:11111/udp/239.93.1.174:5140
