@@ -104,10 +104,10 @@ http://192.168.50.1:11111/udp/239.93.0.162:2192
 #EXTINF:-1 tvg-id="142" tvg-name="凤凰资讯" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzixun.png" group-title="港澳台",凤凰卫视资讯台
 http://192.168.50.1:11111/udp/239.93.1.4:2191
 http://192.168.50.1:11111/udp/239.93.0.118:2191
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/星空卫视" group-title="新媒体",星空卫视
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/星空卫视.png" group-title="新媒体",星空卫视
 http://192.168.50.1:11111/udp/239.93.0.156:2193
 http://192.168.50.1:11111/udp/239.93.1.10:2193
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/星空音乐台" group-title="新媒体",星空音乐台
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/星空音乐台.png" group-title="新媒体",星空音乐台
 http://192.168.50.1:11111/udp/239.93.1.7:2194
 http://192.168.50.1:11111/udp/239.93.0.157:2194
 #EXTINF:-1  tvg-logo="https://live.fanmingming.com/tv/IHOT爱喜剧.png" group-title="新媒体",IHOT爱喜剧
@@ -154,7 +154,7 @@ http://192.168.50.1:11111/udp/239.93.0.19:1250
 http://192.168.50.1:11111/udp/239.93.1.231:5140
 #EXTINF:-1  tvg-logo="https://live.fanmingming.com/tv/cdtv6.png" group-title="地方",CDTV6
 http://192.168.50.1:11111/udp/239.93.0.21:1251
-#EXTINF:-1  tvg-logo="https://live.fanmingming.com/tv/CDTV8.png" group-title="地方",CDTV8
+#EXTINF:-1  tvg-logo="https://live.fanmingming.com/tv/cdtv8.png" group-title="地方",CDTV8
 http://192.168.50.1:11111/udp/239.93.0.22:1252
 #EXTINF:-1  tvg-logo="https://live.fanmingming.com/tv/cdtv-蓉城先锋.png" group-title="地方",CDTV-蓉城先锋
 http://192.168.50.1:11111/udp/239.93.0.91:2101
@@ -187,7 +187,7 @@ http://192.168.50.1:11111/udp/239.93.0.97:5140
 http://192.168.50.1:11111/udp/239.93.0.145:5140
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/绚影4K.png" group-title="专业",绚影4K
 http://192.168.50.1:11111/udp/239.93.42.33:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/BESTV百事通" group-title="新媒体",BESTV百事通
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/BESTV百事通.png" group-title="新媒体",BESTV百事通
 http://192.168.50.1:11111/udp/239.93.42.75:5140
 #EXTINF:-1 tvg-id="29" tvg-name="江苏卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangsu.png" group-title="地方",江苏卫视
 http://192.168.50.1:11111/udp/239.93.0.72:5140
@@ -232,7 +232,7 @@ http://192.168.50.1:11111/udp/239.93.0.124:5140
 http://192.168.50.1:11111/udp/239.93.0.143:5140
 http://192.168.50.1:11111/udp/239.93.0.125:5140
 http://192.168.50.1:11111/udp/239.93.0.176:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/陕西农林卫视" group-title="地方",陕西农林卫视
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/陕西农林卫视.png" group-title="地方",陕西农林卫视
 http://192.168.50.1:11111/udp/239.93.0.100:5140
 #EXTINF:-1 tvg-id="58" tvg-name="云南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/yunnan.png" group-title="地方",云南卫视
 http://192.168.50.1:11111/udp/239.93.1.174:5140
