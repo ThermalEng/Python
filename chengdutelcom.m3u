@@ -187,7 +187,7 @@ http://192.168.50.1:11111/udp/239.93.0.97:5140
 http://192.168.50.1:11111/udp/239.93.0.145:5140
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/绚影4K.png" group-title="专业",绚影4K
 http://192.168.50.1:11111/udp/239.93.42.33:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/BESTV百事通.png" group-title="新媒体",BESTV百事通
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/百视通.png" group-title="新媒体",BESTV百视通
 http://192.168.50.1:11111/udp/239.93.42.75:5140
 #EXTINF:-1 tvg-id="29" tvg-name="江苏卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangsu.png" group-title="地方",江苏卫视
 http://192.168.50.1:11111/udp/239.93.0.72:5140
