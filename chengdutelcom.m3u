@@ -60,11 +60,11 @@ http://192.168.50.1:11111/udp/239.93.1.36:8004
 #EXTINF:-1 tvg-id="106" tvg-name="CCTV4K" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png" group-title="央视",CCTV-4K
 http://192.168.50.1:11111/udp/239.93.42.41:5140
 http://192.168.50.1:11111/udp/239.93.42.42:5140
-#EXTINF:-1 tvg-id="20en" tvg-name="CGTN" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/cgtn.png" group-title="央视",CGTN
+#EXTINF:-1 tvg-id="20en" tvg-name="CGTN" tvg-logo="https://live.fanmingming.com/tv/CGTN.png" group-title="央视",CGTN
 http://192.168.50.1:11111/udp/239.93.0.104:5140
-#EXTINF:-1 tvg-id="20si" tvg-name="CGTN" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/cgtn西语.png" group-title="央视",CGTN西语
+#EXTINF:-1 tvg-id="20si" tvg-name="CGTN" tvg-logo="https://live.fanmingming.com/tv/CGTN西语.png" group-title="央视",CGTN西语
 http://192.168.50.1:11111/udp/239.93.42.49:5140
-#EXTINF:-1 tvg-id="20fr" tvg-name="CGTN" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/cgtn法语.png" group-title="央视",CGTN法语
+#EXTINF:-1 tvg-id="20fr" tvg-name="CGTN" tvg-logo="https://live.fanmingming.com/tv/CGTN法语.png" group-title="央视",CGTN法语
 http://192.168.50.1:11111/udp/239.93.42.50:5140
 #EXTINF:-1 tvg-id="4" tvg-name="CCTV4" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4.png" group-title="央视",CCTV-4-亚洲台
 http://192.168.50.1:11111/udp/239.93.1.105:5140
