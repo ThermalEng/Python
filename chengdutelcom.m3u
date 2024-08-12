@@ -136,7 +136,7 @@ http://192.168.50.1:11111/udp/239.93.42.20:5140
 http://192.168.50.1:11111/udp/239.93.42.21:5140
 #EXTINF:-1  tvg-logo="https://live.fanmingming.com/tv/IHOT爱奇谈.png" group-title="新媒体",IHOT爱奇谈
 http://192.168.50.1:11111/udp/239.93.42.22:5140
-#EXTINF:-1  tvg-logo="https://live.fanmingming.com/tv/IHOT爱动漫.png" group-title="新媒体" group-title="少儿",IHOT爱动漫
+#EXTINF:-1  tvg-logo="https://live.fanmingming.com/tv/IHOT爱动漫.png" group-title="少儿" group-title="新媒体",IHOT爱动漫
 http://192.168.50.1:11111/udp/239.93.42.23:5140
 #EXTINF:-1  tvg-logo="https://live.fanmingming.com/tv/IHOT爱喜剧.png" group-title="新媒体",IHOT爱喜剧
 http://192.168.50.1:11111/udp/239.93.1.59:5140
@@ -171,7 +171,7 @@ http://192.168.50.1:11111/udp/239.93.0.47:5140
 http://192.168.50.1:11111/udp/239.93.0.219:5140
 #EXTINF:-1 tvg-id="2057" tvg-name="SCTV5" tvg-logo="http://epg.51zmt.top:8000/tb1/sheng/sctv5.png" group-title="地方",四川影视
 http://192.168.50.1:11111/udp/239.93.0.166:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/峨眉电影.png" group-title="地方" group-title="专业",峨眉电影
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/峨眉电影.png" group-title="专业" group-title="地方",峨眉电影
 http://192.168.50.1:11111/udp/239.93.0.252:5140
 #EXTINF:-1 tvg-id="" tvg-name="四川乡村" tvg-logo="https://live.fanmingming.com/tv/四川乡村.png" group-title="地方",四川乡村
 http://192.168.50.1:11111/udp/239.93.0.52:5140
@@ -297,7 +297,7 @@ http://192.168.50.1:11111/udp/239.93.1.111:5140
 http://192.168.50.1:11111/udp/239.93.0.113:5140
 #EXTINF:-1  tvg-logo="https://live.fanmingming.com/tv/CETV04.png" group-title="央视",CETV-04
 http://192.168.50.1:11111/udp/239.93.0.133:5140
-#EXTINF:-1 tvg-id="6581" tvg-name="早期教育" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CCTVPAYFEE33.jpg" group-title="央视" group-title="少儿",CETV-早期教育
+#EXTINF:-1 tvg-id="6581" tvg-name="早期教育" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CCTVPAYFEE33.jpg" group-title="少儿" group-title="央视",CETV-早期教育
 http://192.168.50.1:11111/udp/239.93.0.117:5140
 #EXTINF:-1  tvg-logo="https://live.fanmingming.com/tv/I成都.png" group-title="地方",I成都
 http://192.168.50.1:11111/udp/239.93.1.104:1234
@@ -346,7 +346,7 @@ http://192.168.50.1:11111/udp/239.93.1.179:5140
 #EXTINF:-1  tvg-logo="https://live.fanmingming.com/tv/熊猫卡通.png" group-title="专业",熊猫卡通
 #EXTINF:-1 tvg-id="67" tvg-name="卡酷动画" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/kaku.png" group-title="少儿" group-title="地方",北京卡酷少儿
 http://192.168.50.1:11111/udp/239.93.0.208:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" ,湖南金鹰记实
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方",湖南金鹰记实
 http://192.168.50.1:11111/udp/239.93.0.130:5140
 #EXTINF:-1 tvg-id="62" tvg-name="哈哈炫动" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/xuandong.png" group-title="少儿" group-title="地方",上海哈哈炫动
 http://192.168.50.1:11111/udp/239.93.0.173:5140
@@ -390,7 +390,7 @@ http://192.168.50.1:11111/udp/239.93.0.141:5140
 http://192.168.50.1:11111/udp/239.93.0.152:5140
 #EXTINF:-1 tvg-id="1994" tvg-name="中国交通-四川" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/zgjt.png" group-title="央视",中国交通
 http://192.168.50.1:11111/udp/239.93.0.142:5140
-#EXTINF:-1  tvg-logo="https://live.fanmingming.com/tv/东方财经.png" group-title="专业" group-title="地方",东方财经
+#EXTINF:-1  tvg-logo="https://live.fanmingming.com/tv/东方财经.png" group-title="专业",东方财经
 http://192.168.50.1:11111/udp/239.93.1.165:5140
 #EXTINF:-1  tvg-logo="https://live.fanmingming.com/tv/预留频道-欧洲杯.png" group-title="专业",预留频道-欧洲杯
 http://192.168.50.1:11111/udp/239.93.1.187:5140
@@ -404,7 +404,7 @@ http://192.168.50.1:11111/udp/239.93.1.190:5140
 http://192.168.50.1:11111/udp/239.93.1.191:5140
 #EXTINF:-1 tvg-id="6555" tvg-name="梨园" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CCTVPAYFEE20.jpg" group-title="专业",梨园频道
 http://192.168.50.1:11111/udp/239.93.1.195:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/山东教育卫视" group-title="少儿" group-title="地方",山东教育卫视
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/山东教育卫视" group-title="地方",山东教育卫视
 http://192.168.50.1:11111/udp/239.93.1.196:5140
 #EXTINF:-1 tvg-id="67" tvg-name="卡酷动画" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/kaku.png" group-title="少儿",卡酷少儿
 http://192.168.50.1:11111/udp/239.93.42.1:5140
@@ -462,9 +462,9 @@ http://192.168.50.1:11111/udp/239.93.42.91:5140
 http://192.168.50.1:11111/udp/239.93.0.95:5140
 #EXTINF:-1  tvg-logo="https://live.fanmingming.com/tv/百视通.png" group-title="新媒体",BESTV戏曲精选
 http://192.168.50.1:11111/udp/239.93.0.144:5140
-#EXTINF:-1  tvg-logo="https://live.fanmingming.com/tv/百视通.png" group-title="新媒体" group-title="少儿",BESTV青春动漫
+#EXTINF:-1  tvg-logo="https://live.fanmingming.com/tv/百视通.png" group-title="少儿",BESTV青春动漫
 http://192.168.50.1:11111/udp/239.93.0.146:5140
-#EXTINF:-1  tvg-id="bbdh" tvg-logo="https://live.fanmingming.com/tv/百视通.png" group-title="新媒体"  group-title="少儿",BESTV宝宝动画
+#EXTINF:-1  tvg-id="bbdh" tvg-logo="https://live.fanmingming.com/tv/百视通.png" group-title="少儿",BESTV宝宝动画
 http://192.168.50.1:11111/udp/239.93.0.147:5140
 http://192.168.50.1:11111/udp/239.93.42.89:5140
 #EXTINF:-1  tvg-logo="https://live.fanmingming.com/tv/热门综艺.png" group-title="专业",热门综艺
@@ -481,7 +481,7 @@ http://192.168.50.1:11111/udp/239.93.42.95:5140
 http://192.168.50.1:11111/udp/239.93.42.96:5140
 #EXTINF:-1  tvg-logo="https://live.fanmingming.com/tv/魅力足球.png" group-title="专业",魅力足球
 http://192.168.50.1:11111/udp/239.93.42.97:5140
-#EXTINF:-1 tvg-id="1964" tvg-name="劲爆体育" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/jinbaotiyu.jpg",劲爆体育
+#EXTINF:-1 tvg-id="1964" tvg-name="劲爆体育" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/jinbaotiyu.jpg" group-title="专业",劲爆体育
 http://192.168.50.1:11111/udp/239.93.42.98:5140
 #EXTINF:-1 tvg-name="斗鱼4K影院" tvg-logo="https://live.fanmingming.com/tv/斗鱼4K影院.png" group-title="新媒体",斗鱼4K影院
 http://159.75.85.63:35455/douyu/9249162
@@ -550,7 +550,7 @@ http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225669/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225675/index.m3u8
 #EXTINF:-1  tvg-logo="https://live.fanmingming.com/tv/黑莓电影.png" group-title="新媒体",黑莓电影
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225743/index.m3u8
-#EXTINF:-1  tvg-logo="https://live.fanmingming.com/tv/黑莓动画.png" group-title="新媒体" group-title="少儿",黑莓动画
+#EXTINF:-1  tvg-logo="https://live.fanmingming.com/tv/黑莓动画.png" group-title="少儿",黑莓动画
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225662/index.m3u8
 #EXTINF:-1  tvg-logo="https://live.fanmingming.com/tv/聚鲨环球精选.png" group-title="新媒体",聚鲨环球精选
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225708/index.m3u8
