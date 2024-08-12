@@ -156,7 +156,7 @@ http://192.168.50.1:11111/udp/239.93.1.231:5140
 http://192.168.50.1:11111/udp/239.93.0.21:1251
 #EXTINF:-1  tvg-logo="https://epg.112114.xyz/logo/CDTV8.png" group-title="地方",CDTV8
 http://192.168.50.1:11111/udp/239.93.0.22:1252
-#EXTINF:-1  tvg-logo="https://live.fanmingming.com/tv/cdtv-蓉城先锋.png" group-title="地方",CDTV-蓉城先锋
+#EXTINF:-1  tvg-logo="https://www.cd12371.com/img/logo.png" group-title="地方",CDTV-蓉城先锋
 http://192.168.50.1:11111/udp/239.93.0.91:2101
 #EXTINF:-1 tvg-id="56" tvg-name="四川卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/sichuan.png" group-title="地方",四川卫视
 http://192.168.50.1:11111/udp/239.93.0.169:5140
