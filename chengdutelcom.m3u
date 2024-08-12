@@ -347,7 +347,7 @@ http://192.168.50.1:11111/udp/239.93.1.179:5140
 #EXTINF:-1  tvg-logo="https://live.fanmingming.com/tv/熊猫卡通.png" group-title="专业",熊猫卡通
 #EXTINF:-1 tvg-id="67" tvg-name="卡酷动画" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/kaku.png" group-title="少儿" group-title="地方",北京卡酷少儿
 http://192.168.50.1:11111/udp/239.93.0.208:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://epg.112114.xyz/logo/湖南金鹰纪实" group-title="地方",湖南金鹰纪实
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://epg.112114.xyz/logo/湖南金鹰纪实.png" group-title="地方",湖南金鹰纪实
 http://192.168.50.1:11111/udp/239.93.0.130:5140
 #EXTINF:-1 tvg-id="62" tvg-name="哈哈炫动" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/xuandong.png" group-title="少儿" group-title="地方",上海哈哈炫动
 http://192.168.50.1:11111/udp/239.93.0.173:5140
@@ -363,11 +363,11 @@ http://192.168.50.1:11111/udp/239.93.1.65:8138
 http://192.168.50.1:11111/udp/239.93.0.122:2208
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo=""  group-title="专业",动画
 http://192.168.50.1:11111/udp/239.93.42.60:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="少儿" ,少儿天地
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://epg.112114.xyz/logo/少儿天地.png" ,少儿天地
 http://192.168.50.1:11111/udp/239.93.1.115:5140
 #EXTINF:-1 tvg-id="6595" tvg-name="快乐垂钓" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/KUAILECHUIDIAO.jpg" group-title="专业",快乐垂钓
 http://192.168.50.1:11111/udp/239.93.1.151:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/上海纪实人文.png"  group-title="专业",上海纪实人文
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://epg.112114.xyz/logo/上海纪实人文.png"  group-title="专业",上海纪实人文
 http://192.168.50.1:11111/udp/239.93.1.154:5140
 http://192.168.50.1:11111/udp/239.93.1.137:5140
 #EXTINF:-1 tvg-id="" tvg-name="大爱四川" tvg-logo="https://epg.112114.xyz/logo/大爱四川.png" group-title="地方",大爱四川
@@ -380,13 +380,13 @@ http://192.168.50.1:11111/udp/239.93.0.62:5140
 http://192.168.50.1:11111/udp/239.93.0.114:5140
 #EXTINF:-1 tvg-id="6623" tvg-name="财富天下" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/财富天下.png" group-title="地方" group-title="专业",江苏财富天下
 http://192.168.50.1:11111/udp/239.93.0.116:9136
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/爱体育.png" group-title="专业",爱体育
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://epg.112114.xyz/logo/爱体育.png" group-title="专业",爱体育
 http://192.168.50.1:11111/udp/239.93.0.135:9008
 #EXTINF:-1 tvg-id="1983" tvg-name="游戏风云" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/youxifengyun.png" group-title="专业",游戏风云
 http://192.168.50.1:11111/udp/239.93.0.136:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/热门综艺.png" group-title="专业",热门综艺
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://epg.112114.xyz/logo/热门综艺.png" group-title="专业",热门综艺
 http://192.168.50.1:11111/udp/239.93.0.151:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://epg.112114.xyz/logo/北京记实科教.png" group-title="少儿",北京纪实科教
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://epg.112114.xyz/logo/北京纪实科教.png" group-title="少儿",北京纪实科教
 http://192.168.50.1:11111/udp/239.93.0.141:5140
 http://192.168.50.1:11111/udp/239.93.0.152:5140
 #EXTINF:-1 tvg-id="1994" tvg-name="中国交通" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/zgjt.png" group-title="央视",中国交通
@@ -395,7 +395,7 @@ http://192.168.50.1:11111/udp/239.93.0.142:5140
 http://192.168.50.1:11111/udp/239.93.1.165:5140
 #EXTINF:-1  tvg-logo="https://live.fanmingming.com/tv/预留频道-欧洲杯.png" group-title="专业",预留频道-欧洲杯
 http://192.168.50.1:11111/udp/239.93.1.187:5140
-#EXTINF:-1  tvg-logo="https://live.fanmingming.com/tv/中录动漫.png" group-title="少儿",中录动漫
+#EXTINF:-1  tvg-logo="https://epg.112114.xyz/logo/中录动漫.png" group-title="少儿",中录动漫
 http://192.168.50.1:11111/udp/239.93.1.188:5140
 #EXTINF:-1  tvg-logo="https://epg.112114.xyz/logo/熊猫少儿.png" group-title="少儿",熊猫少儿
 http://192.168.50.1:11111/udp/239.93.1.189:5140
@@ -405,7 +405,7 @@ http://192.168.50.1:11111/udp/239.93.1.190:5140
 http://192.168.50.1:11111/udp/239.93.1.191:5140
 #EXTINF:-1 tvg-id="6555" tvg-name="梨园" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CCTVPAYFEE20.jpg" group-title="专业",梨园频道
 http://192.168.50.1:11111/udp/239.93.1.195:5140
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/山东教育卫视" group-title="地方",山东教育卫视
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://live.fanmingming.com/tv/山东教育.png" group-title="地方",山东教育卫视
 http://192.168.50.1:11111/udp/239.93.1.196:5140
 #EXTINF:-1 tvg-id="67" tvg-name="卡酷动画" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/kaku.png" group-title="少儿",卡酷少儿
 http://192.168.50.1:11111/udp/239.93.42.1:5140
