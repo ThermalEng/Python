@@ -95,11 +95,11 @@
     "clash_api": { 
       "external_controller": "0.0.0.0:9090",
       "external_ui": "/etc/ShellCrash/ui/"
-    },
-    "log": {
+    }
+  },
+  "log": {
       "disabled": false,
       "level": "info",
       "timestamp": true
-    }
   }
 }
