@@ -4,7 +4,7 @@
       {"tag": "local", "type": "udp", "server": "223.5.5.5"},
       {"tag": "public", "type": "https", "server": "dns.alidns.com", "domain_resolver": "local"},
       {"tag": "foreign", "type": "https", "server": "1.1.1.1", "detour": "🚀 默认代理"},
-      {"tag": "fakeip", "type": "fakeip", "inet4_range": "198.18.0.0/15", "inet6_range": "fc00::/18"}
+      {"tag": "fakeip", "type": "fakeip", "inet4_range": "198.18.0.0/16", "inet6_range": "fc00::/16"}
     ],
     "rules": [
       {"query_type": "HTTPS", "action": "reject"},
@@ -12,10 +12,10 @@
       {"clash_mode": "direct", "server": "public"},
       {"clash_mode": "global", "server": "foreign", "strategy": "ipv4_only"},
       {"rule_set": ["geosite-steamcn"], "server": "local"},
-      {"rule_set": ["geosite-!cn", "geosite-google", "geosite-bing", "geosite-apple", "geosite-steam", "geosite-ai", "force-remote-site"], "server": "fakeip"},
+      {"rule_set": ["geosite-!cn", "geosite-google", "geosite-bing", "geosite-apple", "geosite-steam", "geosite-ai", "force-remote-site"], "server": "fakeip", "rewrite_ttl": 1},
       {"rule_set": "geoip-cn", "server": "public"},
       {"rule_set": "fakeip-filter", "server": "foreign", "strategy": "ipv4_only"},
-      {"query_type": ["A", "AAAA"], "server": "fakeip"}
+      {"query_type": ["A", "AAAA"], "server": "fakeip", "rewrite_ttl": 1}
     ],
     "final": "foreign",
     "independent_cache": true
@@ -23,27 +23,7 @@
   "inbounds": [
     { "type": "tproxy", "tag": "tproxy-in", "listen": "::", "listen_port": 65535}
   ],
-  "outbounds": [
-    {"tag": "🚀 默认代理", "type": "selector", "outbounds": ["🇭🇰 香港自动", "🇰🇷 韩国自动", "🇯🇵 日本自动", "🇺🇲 美国自动", "🐸 手动选择"]},
-    {"tag": "🍀 特别分流", "type": "selector", "outbounds": ["🇺🇲 美国自动", "🇯🇵 日本自动", "🇸🇬 狮城自动", "🇭🇰 香港自动", "🐸 手动选择"]},
-    {"tag": "👨‍💻 GitDocker", "type": "selector", "outbounds": ["🇭🇰 香港自动", "🇰🇷 韩国自动", "🇯🇵 日本自动", "🇺🇲 美国自动", "🐸 手动选择"]},
-    {"tag": "🍏 苹果服务", "type": "selector", "outbounds": ["🎯 全球直连", "🇭🇰 香港自动",  "🇯🇵 日本自动", "🇺🇲 美国自动", "🐸 手动选择"]}, 
-    {"tag": "ⓖ 谷歌域名", "type": "selector", "outbounds": ["🇭🇰 香港自动", "🇸🇬 狮城自动", "🇯🇵 日本自动", "🇺🇲 美国自动", "🐸 手动选择"]},
-    {"tag": "🎵 TikTok", "type": "selector", "outbounds": ["🇺🇲 美国自动", "🇯🇵 日本自动", "🇸🇬 狮城自动", "🇭🇰 香港自动", "🐸 手动选择"]}, 
-    {"tag": "🎮 Steam", "type": "selector", "outbounds": ["🇭🇰 香港自动", "🇰🇷 韩国自动", "🇯🇵 日本自动", "🇺🇲 美国自动", "🐸 手动选择"]},
-    {"tag": "🌍 国外媒体", "type": "selector", "outbounds": ["🇭🇰 香港自动", "🇸🇬 狮城自动", "🇯🇵 日本自动", "🇺🇲 美国自动", "🐸 手动选择"]},
-    {"tag": "📲 Telegram", "type": "selector", "outbounds": ["🇭🇰 香港自动", "🇰🇷 韩国自动", "🇯🇵 日本自动", "🇺🇲 美国自动", "🐸 手动选择"]},
-    {"tag": "📞 WiFiCall", "type": "selector", "outbounds": ["{all}"], "filter": [{"action": "include", "keywords": ["英国"]}, {"action": "exclude", "keywords": ["AUS|RUS|免费"]}]},
-    {"tag": "🇭🇰 香港自动", "type": "urltest", "outbounds": ["{all}"], "filter": [{"action": "include", "keywords": ["香港"]}, {"action": "exclude", "keywords": ["免费"]}]},
-    {"tag": "🇯🇵 日本自动", "type": "urltest", "outbounds": ["{all}"], "filter": [{"action": "include", "keywords": ["日本"]}, {"action": "exclude", "keywords": ["免费"]}]},
-    {"tag": "🇸🇬 狮城自动", "type": "urltest", "outbounds": ["{all}"], "filter": [{"action": "include", "keywords": ["新加坡"]}, {"action": "exclude", "keywords": ["免费"]}]},
-    {"tag": "🇺🇲 美国自动", "type": "urltest", "outbounds": ["{all}"], "filter": [{"action": "include", "keywords": ["美国"]}, {"action": "exclude", "keywords": ["AUS|RUS|免费"]}]},
-    {"tag": "🇰🇷 韩国自动", "type": "urltest", "outbounds": ["{all}"], "filter": [{"action": "include", "keywords": ["韩国"]}, {"action": "exclude", "keywords": ["免费"]}]},
-    {"tag": "🐸 手动选择", "type": "selector", "outbounds": ["{all}"], "filter": [{"action": "exclude", "keywords": ["网站|流量|地址|剩余|过期|免费|时间|有效|Traffic|ExpireDate|GB|Expire Date"]}]},
-    {"tag": "GLOBAL", "type": "selector", "outbounds": ["🚀 默认代理", "🍀 特别分流", "🐸 手动选择", "🎯 全球直连"]},
-    {"tag": "🎯 全球直连", "type": "direct"}
-  ],
-  "route": {
+   "route": {
     "rules": [
       {"inbound": "tproxy-in", "action": "sniff"},
       {"protocol": "dns", "action": "hijack-dns"},
@@ -105,5 +85,25 @@
       "disabled": false,
       "level": "info",
       "timestamp": true
-  }
+  },
+   "outbounds": [
+    {"tag": "🚀 默认代理", "type": "selector", "outbounds": ["🇭🇰 香港自动", "🇰🇷 韩国自动", "🇯🇵 日本自动", "🇺🇲 美国自动", "🐸 手动选择"]},
+    {"tag": "🍀 特别分流", "type": "selector", "outbounds": ["🇺🇲 美国自动", "🇯🇵 日本自动", "🇸🇬 狮城自动", "🇭🇰 香港自动", "🐸 手动选择"]},
+    {"tag": "👨‍💻 GitDocker", "type": "selector", "outbounds": ["🇭🇰 香港自动", "🇰🇷 韩国自动", "🇯🇵 日本自动", "🇺🇲 美国自动", "🐸 手动选择"]},
+    {"tag": "🍏 苹果服务", "type": "selector", "outbounds": ["🎯 全球直连", "🇭🇰 香港自动",  "🇯🇵 日本自动", "🇺🇲 美国自动", "🐸 手动选择"]}, 
+    {"tag": "ⓖ 谷歌域名", "type": "selector", "outbounds": ["🇭🇰 香港自动", "🇸🇬 狮城自动", "🇯🇵 日本自动", "🇺🇲 美国自动", "🐸 手动选择"]},
+    {"tag": "🎵 TikTok", "type": "selector", "outbounds": ["🇺🇲 美国自动", "🇯🇵 日本自动", "🇸🇬 狮城自动", "🇭🇰 香港自动", "🐸 手动选择"]}, 
+    {"tag": "🎮 Steam", "type": "selector", "outbounds": ["🇭🇰 香港自动", "🇰🇷 韩国自动", "🇯🇵 日本自动", "🇺🇲 美国自动", "🐸 手动选择"]},
+    {"tag": "🌍 国外媒体", "type": "selector", "outbounds": ["🇭🇰 香港自动", "🇸🇬 狮城自动", "🇯🇵 日本自动", "🇺🇲 美国自动", "🐸 手动选择"]},
+    {"tag": "📲 Telegram", "type": "selector", "outbounds": ["🇭🇰 香港自动", "🇰🇷 韩国自动", "🇯🇵 日本自动", "🇺🇲 美国自动", "🐸 手动选择"]},
+    {"tag": "📞 WiFiCall", "type": "selector", "outbounds": ["{all}"], "filter": [{"action": "include", "keywords": ["英国"]}, {"action": "exclude", "keywords": ["AUS|RUS|免费"]}]},
+    {"tag": "🇭🇰 香港自动", "type": "urltest", "outbounds": ["{all}"], "filter": [{"action": "include", "keywords": ["香港"]}, {"action": "exclude", "keywords": ["免费"]}]},
+    {"tag": "🇯🇵 日本自动", "type": "urltest", "outbounds": ["{all}"], "filter": [{"action": "include", "keywords": ["日本"]}, {"action": "exclude", "keywords": ["免费"]}]},
+    {"tag": "🇸🇬 狮城自动", "type": "urltest", "outbounds": ["{all}"], "filter": [{"action": "include", "keywords": ["新加坡"]}, {"action": "exclude", "keywords": ["免费"]}]},
+    {"tag": "🇺🇲 美国自动", "type": "urltest", "outbounds": ["{all}"], "filter": [{"action": "include", "keywords": ["美国"]}, {"action": "exclude", "keywords": ["AUS|RUS|免费"]}]},
+    {"tag": "🇰🇷 韩国自动", "type": "urltest", "outbounds": ["{all}"], "filter": [{"action": "include", "keywords": ["韩国"]}, {"action": "exclude", "keywords": ["免费"]}]},
+    {"tag": "🐸 手动选择", "type": "selector", "outbounds": ["{all}"], "filter": [{"action": "exclude", "keywords": ["网站|流量|地址|剩余|过期|免费|时间|有效|Traffic|ExpireDate|GB|Expire Date"]}]},
+    {"tag": "GLOBAL", "type": "selector", "outbounds": ["🚀 默认代理", "🍀 特别分流", "🐸 手动选择", "🎯 全球直连"]},
+    {"tag": "🎯 全球直连", "type": "direct"}
+  ]
 }
