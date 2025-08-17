@@ -25,7 +25,7 @@
   ],
    "route": {
     "rules": [
-      {"inbound": "tproxy-in", "action": "sniff"},
+      {"action": "sniff"},
       {"protocol": "dns", "action": "hijack-dns"},
       {"ip_is_private": true, "outbound": "🎯 全球直连"},
       {"clash_mode": "direct", "outbound": "🎯 全球直连"},
