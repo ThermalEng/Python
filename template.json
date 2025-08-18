@@ -12,16 +12,16 @@
       {"clash_mode": "direct", "server": "public"},
       {"clash_mode": "global", "server": "foreign", "strategy": "ipv4_only"},
       {"rule_set": ["geosite-steamcn"], "server": "local"},
-      {"rule_set": ["geosite-!cn", "geosite-google", "geosite-bing", "geosite-apple", "geosite-steam", "geosite-ai", "force-remote-site"], "server": "fakeip", "rewrite_ttl": 1},
+      {"rule_set": ["geosite-!cn", "geosite-google", "geosite-bing", "geosite-apple", "geosite-steam", "geosite-ai", "force-remote-site"], "server": "fakeip", "rewrite_ttl": 1, "strategy": "ipv4_only"},
       {"rule_set": "geoip-cn", "server": "public"},
       {"rule_set": "fakeip-filter", "server": "foreign", "strategy": "ipv4_only"},
-      {"query_type": ["A", "AAAA"], "server": "fakeip", "rewrite_ttl": 1}
+      {"query_type": ["A", "AAAA"], "server": "fakeip", "rewrite_ttl": 1", strategy": "ipv4_only"}
     ],
     "final": "foreign",
     "independent_cache": true
   },
   "inbounds": [
-    { "type": "tproxy", "tag": "tproxy-in", "listen": "::", "listen_port": 65535}
+    { "type": "tproxy", "tag": "tproxy-in", "listen": "::", "listen_port": 7893}
   ],
    "route": {
     "rules": [
@@ -63,7 +63,7 @@
       {"tag": "geosite-!cn", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/geolocation-!cn.srs", "download_detour": "🎯 全球直连"},
       {"tag": "geoip-telegram", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/telegram.srs", "download_detour": "🎯 全球直连"},
       {"tag": "geoip-netflix", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/netflix.srs", "download_detour": "🎯 全球直连"},
-      {"tag": "geoip-cn", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://github.com/qljsyph/ruleset-icon/raw/refs/heads/main/sing-box/geoip/China-ASN-combined-ip.srs", "download_detour": "🎯 全球直连"},
+      {"tag": "geoip-cn", "type": "remote", "format": "binary", "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Loyalsoldier/geoip/refs/heads/release/srs/cn.srs", "download_detour": "🎯 全球直连"},
       {"tag": "fakeip-filter", "type": "inline", "rules":[{"domain": ["mtalk.google.com"], "domain_suffix": ["pub.3gppnetwork.org"], "domain_keyword": [], "domain_regex": ["^stun\\..+", "ntp(?:\\d+)?\\..+", "time(?:\\d+)?\\..+"]}]},
       {"tag": "force-remote-site", "type": "inline", "rules":[{"domain": ["file-variants.vrchat.cloud"]}]}
     ]
